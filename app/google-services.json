@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464873964422",
+    "project_id": "kotlin-dsl-bed67",
+    "storage_bucket": "kotlin-dsl-bed67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464873964422:android:8af5a88afe5b5df8536207",
+        "android_client_info": {
+          "package_name": "com.matech.kotlindsl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464873964422-0uund71rd0bkqa2oi1r1i29itto0k08g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQvpKxNAdVY0yEU7nv1HzaEKHI8d1dTpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464873964422-0uund71rd0bkqa2oi1r1i29itto0k08g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
