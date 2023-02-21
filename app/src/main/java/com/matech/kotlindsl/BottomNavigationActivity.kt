@@ -11,7 +11,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationBarView
 import com.matech.kotlindsl.databinding.ActivityBottomNavigationBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class BottomNavigationActivity : AppCompatActivity()/*, NavigationBarView.OnItemSelectedListener */{
 
     private lateinit var binding: ActivityBottomNavigationBinding

@@ -1,12 +1,12 @@
 plugins {
     id ("com.android.application")
-    //  id ("org.jetbrains.kotlin.android")
     kotlin("android")
     kotlin("kapt")
+    id("com.google.dagger.hilt.android")
     id("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
 
-    //  id("dagger.hilt.android.plugin")
+
 
 }
 /*apply{
@@ -97,14 +97,15 @@ dependencies {
     implementation ("com.google.firebase:firebase-bom:31.2.2")
     implementation("com.google.firebase:firebase-crashlytics-ktx:18.3.5")
     implementation("com.google.firebase:firebase-analytics-ktx:21.2.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
+
+    kapt("com.github.bumptech.glide:compiler:4.14.2")
     //  implementation("androidx.navigation:navigation-safe-args-gradle-plugin:2.6.0-alpha05")
     testImplementation ("junit:junit:4.13.2")
     androidTestImplementation ("androidx.test.ext:junit:1.1.5")
     androidTestImplementation ("androidx.test.espresso:espresso-core:3.5.1")
+
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
-
 
 }
 kapt {
