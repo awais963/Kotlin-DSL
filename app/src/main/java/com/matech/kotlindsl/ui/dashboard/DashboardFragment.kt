@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import com.matech.kotlindsl.R
 import com.matech.kotlindsl.databinding.FragmentDashboardBinding
 import com.matech.kotlindsl.ui.FullScreenDialogFragment
 import dagger.hilt.android.AndroidEntryPoint
@@ -42,8 +44,9 @@ class DashboardFragment : Fragment() {
         return root
     }
     private fun showDialog() {
-        val dialogFragment = FullScreenDialogFragment()
-        dialogFragment.show(childFragmentManager, "signature")
+        findNavController().navigate(R.id.action_navigation_dashboard_to_fullScreenDialogFragment)
+      /*  val dialogFragment = FullScreenDialogFragment()
+        dialogFragment.show(childFragmentManager, "signature")*/
     }
     override fun onDestroyView() {
         super.onDestroyView()

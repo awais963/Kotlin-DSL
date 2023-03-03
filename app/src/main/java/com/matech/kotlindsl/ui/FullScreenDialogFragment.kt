@@ -7,13 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.textview.MaterialTextView
 import com.matech.kotlindsl.R
 import com.matech.kotlindsl.databinding.FragmentFullScreenDialogBinding
 import com.matech.kotlindsl.databinding.FragmentHomeBinding
 
 
-class FullScreenDialogFragment : DialogFragment() {
+class FullScreenDialogFragment : BottomSheetDialogFragment() {
 
 
     private var _binding: FragmentFullScreenDialogBinding? = null
