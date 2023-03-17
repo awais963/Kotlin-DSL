@@ -12,7 +12,7 @@ import com.matech.kotlindsl.data.database.entities.MoviesEntities
     ], version = 0, exportSchema = false
 )
 
-@TypeConverters(Converter::class)
+//@TypeConverters(Converter::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun movieDao() : MoviesDao
 }
